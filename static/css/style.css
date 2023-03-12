@@ -1,0 +1,1277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background: rgb(216, 210, 210);
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+/* start of Login page formatting */
+.loginForm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0;
+    border: 1px solid rgb(239, 239, 245);
+    color: #111;
+    max-width: 100%;
+    width: 40%;
+    background: #fff;
+}
+
+.formHeading{
+    padding-top: 3%;
+    color: #fff;
+    font-weight: normal;
+}
+/* format maseno logo */
+.masenoLogoImage{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 2%;
+}
+.formTop{
+    background-color:#00a7d0;
+    width: 100%;
+}
+.formContent{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 100%;
+}
+.usernameLabel,
+.passwordLabel{
+    font-weight: bold;
+    text-align: left;
+    padding-right: 1%;
+    width: 100px;
+    margin-bottom: 1%;
+}
+/* put spacing between input fields */
+.loginUsername{
+    width: 70%;
+    padding: 0.5%;
+    margin-bottom:1%;
+}
+.loginPassword{
+    width: 70%;
+    padding: 0.5%;
+    margin-top: 2%;
+    margin-bottom:2%;
+}
+.loginButton{
+    padding: 2%;
+    width: 100%;
+    border-radius: 15%;
+}
+
+.regButton{
+    width: 30%;
+    background-color: green;
+    border-color: #3f85ad;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+.regButton:hover{
+    color: white;
+    background-color: #00a7d0;
+}
+.regLabel{
+    padding:0;
+    margin-top: 0;
+    margin-bottom: 1%;
+    padding-bottom: 0;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.hr-class{
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+}
+
+.admin-table{
+    overflow-x:auto;
+    }
+/* end of login page formatting */
+/* register form formatting */
+.registerForm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 0;
+    border: 1px solid rgb(239, 239, 245);
+    color: #111;
+    max-width: 100%;
+    /* min-width: 500px; */
+    width: 60%;
+    background: #fff;
+}
+.registerFormContent{
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    margin-top: 2%;
+}
+.registerFormContent label{
+    width: 200px;
+}
+.registerFormContent input{
+    width:50%;
+   margin: 1%;
+}
+.FirstName,
+.MiddleName,
+.LastName,
+.regNumber,
+.email,
+.phoneNumber,
+.password1,
+.confirmPassword{
+    padding: 0.5%;
+}
+.registerButton{
+    background-color: rgb(2, 105, 2);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5%;
+    padding: 0.5%;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.registerButton:hover{
+background-color: rgb(13, 112, 13);
+box-shadow: 10px 10px 10px rgb(85, 81, 81);
+}
+.registerForm-footer{
+    background-color: #00a7d0;
+    color: white;
+    padding: 0.5%;
+}
+.register-footer-p{
+    padding-top: 1%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .body{
+        background: rgb(216, 210, 210);
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    .loginForm{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        padding: 0;
+        border: 1px solid rgb(239, 239, 245);
+        color: #111;
+        max-width: 100%;
+        width: 90%;
+        background: #fff;
+    }
+    .loginButton{
+        padding: 2%;
+        width: 100%;
+        border-radius: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .loginUsername{
+        width: 70%;
+        padding: 1%;
+        margin-bottom:1%;
+    }
+    .loginPassword{
+        width: 70%;
+        padding: 1%;
+        margin-top: 2%;
+        margin-bottom:2%;
+    }
+    .registerForm{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        padding: 0;
+        border: 1px solid rgb(239, 239, 245);
+        color: #111;
+        max-width: 100%;
+        /* min-width: 500px; */
+        width: 25rem;
+        background: #fff;
+    }
+    .formTop{
+        margin-top: 0%;
+    }
+    .registerFormContent label{
+        width: 200px;
+    }
+    .registerFormContent input{
+        width:80%;
+       margin: 1%;
+    }
+    .FirstName,
+    .MiddleName,
+    .LastName,
+    .regNumber,
+    .email,
+    .phoneNumber,
+    .password1,
+    .confirmPassword{
+        padding: 0.5%;
+    }
+    .admin-table{
+        overflow-x:auto;
+        margin-top: 15%;
+    }
+    
+}
+/* end of media query 1 */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width:600px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .body{
+        background: rgb(216, 210, 210);
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    .loginForm{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 0;
+        border: 1px solid rgb(239, 239, 245);
+        color: #111;
+        max-width: 100%;
+        width: 60%;
+        background: #fff;
+    }
+    .loginButton{
+        padding: 2%;
+        width: 50%;
+        border-radius: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .registerForm{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        padding: 0;
+        border: 1px solid rgb(239, 239, 245);
+        color: #111;
+        max-width: 100%;
+        /* min-width: 500px; */
+        width: 35rem;
+        background: #fff;
+    }
+    .formTop{
+        margin-top: 0%;
+    }
+    .registerFormContent label{
+        width: 200px;
+        font-weight: bold;
+    }
+    .registerFormContent input{
+        width:90%;
+       margin: 1%;
+       padding: 1%;
+    }
+    .FirstName,
+    .MiddleName,
+    .LastName,
+    .regNumber,
+    .email,
+    .phoneNumber,
+    .password1,
+    .confirmPassword{
+        padding: 0.5%;
+    }
+    .admin-table{
+        overflow-x:auto;
+        margin-top: 15%;
+    }
+    
+
+}
+/* end of media query 2 */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .body{
+        background: rgb(216, 210, 210);
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    .loginForm{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 0;
+        border: 1px solid rgb(239, 239, 245);
+        color: #111;
+        max-width: 100%;
+        width: 50%;
+        background: #fff;
+    }
+    .loginButton{
+        padding: 2%;
+        width: 50%;
+        border-radius: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .admin-table{
+        overflow-x:auto;
+        margin-top: 10%;
+    }
+}
+/* end of media query 3 */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .body{
+        background: rgb(216, 210, 210);
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    /* start of Login page formatting */
+    .loginForm{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 0;
+        border: 1px solid rgb(239, 239, 245);
+        color: #111;
+        max-width: 100%;
+        width: 40%;
+        background: #fff;
+    }
+    .loginButton{
+        padding: 2%;
+        width: 10%;
+        border-radius: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .admin-table{
+        overflow-x:auto;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1024px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .body{
+        background: rgb(216, 210, 210);
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    /* start of Login page formatting */
+    .loginForm{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 0;
+        border: 1px solid rgb(239, 239, 245);
+        color: #111;
+        max-width: 100%;
+        width: 40%;
+        background: #fff;
+    }
+    .loginButton{
+        padding: 2%;
+        width: 100%;
+        border-radius: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .loginUsername{
+        width: 70%;
+        padding: 1%;
+        margin-bottom:1%;
+    }
+    .loginPassword{
+        width: 70%;
+        padding: 1%;
+        margin-top: 2%;
+        margin-bottom:2%;
+    }
+    .admin-table{
+        overflow-x:auto;
+        margin-top: 8%;
+    }
+    
+
+}
+/* end of media query */
+
+/* end of register form formatting styles */
+/* student dashboard */
+.navbar{
+    background-color: #1f2021;
+}
+.nav-item,.nav-link{
+    color: white;
+}
+.navTitle{
+    color: red;
+}
+.navbar-brand{
+    color: #fff;
+}
+.navbar-brand:hover,
+.navbar-brand:focus{
+    color: white;
+}
+.jumbotron{
+    background-color: #fff!important ;
+    color: black;
+    margin-top: 4% !important;
+    margin-bottom: 1% !important;
+}
+.fa{
+    color: #00a7d0;
+    text-decoration: none;
+}
+.fa:hover{
+    text-decoration: none;
+    color:#00a7d0;
+}
+/* SOMU BURSARY SECTION */
+.somuLogo{
+    padding: 2%;
+}
+.SOMU-Subtitle{
+    text-align: center;
+}
+.SOMU-Form{
+    background: rgb(216, 210, 210);
+}
+.formContents{
+    margin-top: 10%;
+    padding-left: 0;
+}
+.personalInformationForm{
+   background: white;
+    color: black;
+    border: 1px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    max-width: 100%;
+    /* min-width: 80%; */
+    width: 60%;
+}
+.personalInformationForm label{
+    width: 200px;
+    text-align: left;
+    padding-left: 0;
+    margin: 0;
+}
+.personalInformationForm  input{
+    width: 50%;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+/* Family status form*/
+.family-status-form{
+    background: white;
+    color: black;
+    border: 1px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+    max-width: 100%;
+    /* min-width: 80%; */
+    width: 60%;
+    text-align: left;
+}
+.family-status-form label{
+    width: 240px;
+    margin: 0;
+    padding-left:8%; 
+    padding-right: 0;
+}
+.family-status-form input{
+    margin-right: 0;
+    margin-left: 6%;
+   padding: 1%;
+}
+.save-Button-family{
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-right: auto;
+    position: relative;
+}
+/* end of family status form formatting */
+
+/* loan details formatting */
+.loan-disclaimer{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+.loan-contents{
+    border: 1px solid #fff;
+    background: white;
+    color: black;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    text-align: left;
+    /* min-width: 80%; */
+    max-width: 100%;
+}
+.loan-menu{
+    border: 1px solid skyblue;
+    padding: 2%;
+    border-radius: 10px;
+    transition: all .5s;
+    margin-bottom: 2%;
+}
+.loan-menu:hover{
+box-shadow: 10px 10px 10px rgb(167, 159, 159);
+}
+.bursary-menu{
+    border: 1px solid skyblue;
+    padding: 2%;
+    border-radius: 10px;
+    transition: all .5s;
+    margin-bottom: 2%;
+}
+.bursary-menu:hover{
+    box-shadow: 10px 10px 10px rgb(167, 159, 159);
+}
+.academic-menu{
+    border: 1px solid skyblue;
+    padding: 2%;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.academic-menu:hover{
+    box-shadow: 10px 10px 10px rgb(167, 159, 159);
+}
+.loan-contents label{
+    width:300px ;
+    padding-left: 15%;
+    padding-right: 0;
+    margin-right: 0%;
+}
+.loan-contents input{
+    width: 45%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+.loan-details-heading{
+    text-align: left;
+}
+.loan-details-heading{
+    padding-top:2%;
+    padding-left: 15%;
+}
+.loan-details-btn-save{
+    color: white;
+    background: #00a7d0;
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.app-submit-btn-div{
+    text-align: center;
+    color: white;
+}
+.footer-section{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    background-color: #fff;
+    margin-top: 1%;
+}
+.footer-menu{
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+}
+.heading-footer{
+    text-align: center;
+}
+.footer-heading{
+    text-align: center;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .personalInformationForm{
+        background: white;
+         color: black;
+         border: 1px solid #fff;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 1%;
+         margin-bottom: 1%;
+         padding-top: 4%;
+         padding-bottom: 2%;
+         max-width: 100%;
+         width: 80%;
+     }
+     .personalInformationForm label{
+        width: 200px;
+        text-align: center;
+        padding-left: 0;
+        margin: 0;
+    }
+    .personalInformationForm  input{
+        width: 80%;
+        margin-bottom: 2%;
+        padding: 1%;
+    }
+    .family-status-form{
+        background: white;
+        color: black;
+        border: 1px solid #fff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 6%;
+        max-width: 100%;
+        /* min-width: 80%; */
+        width: 80%;
+        text-align: left;
+    }
+    .loan-contents{
+        border: 1px solid #fff;
+        background: white;
+        color: black;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2%;
+        text-align: left;
+        /* min-width: 80%; */
+        max-width: 100%;
+    }
+    .loan-contents label{
+        width:300px ;
+        padding-left: 15%;
+        padding-right: 0;
+        margin-right: 0%;
+        text-align: left;
+    }
+    .loan-contents input{
+        width: 80%;
+        margin-left: 2%;
+        margin-bottom: 1%;
+        padding: 1%;
+    }
+    .loan-details-heading{
+        padding-left: 0;
+    }
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .personalInformationForm{
+        background: white;
+         color: black;
+         border: 1px solid #fff;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 1%;
+         margin-bottom: 1%;
+         padding-top: 2%;
+         padding-bottom: 2%;
+         /* max-width: 100%; */
+         width: 80%;
+     }
+     .personalInformationForm label{
+        width: 200px;
+        text-align: center;
+        padding-left: 0;
+        margin: 0;
+    }
+    .personalInformationForm  input{
+        width: 80%;
+        margin-bottom: 2%;
+        padding: 1%;
+    }
+    .family-status-form{
+        background: white;
+        color: black;
+        border: 1px solid #fff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 6%;
+        max-width: 100%;
+        /* min-width: 80%; */
+        width: 80%;
+        text-align: left;
+    }
+    .loan-contents{
+        border: 1px solid #fff;
+        background: white;
+        color: black;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2%;
+        text-align: left;
+        /* min-width: 80%; */
+        max-width: 100%;
+    }
+    .loan-contents label{
+        width:300px ;
+        padding-left: 15%;
+        padding-right: 0;
+        margin-right: 0%;
+        text-align: left;
+    }
+    .loan-contents input{
+        width: 80%;
+        margin-left: 2%;
+        margin-bottom: 1%;
+        padding: 1%;
+    }
+    .loan-details-heading{
+        padding-left: 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .personalInformationForm{
+        background: white;
+         color: black;
+         border: 1px solid #fff;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 1%;
+         margin-bottom: 1%;
+         padding-top: 2%;
+         padding-bottom: 2%;
+         max-width: 100%;
+         width: 70%;
+     }
+     .family-status-form{
+        background: white;
+        color: black;
+        border: 1px solid #fff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 6%;
+        max-width: 100%;
+        /* min-width: 80%; */
+        width: 70%;
+        text-align: left;
+    }
+    .loan-contents{
+        border: 1px solid #fff;
+        background: white;
+        color: black;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2%;
+        text-align: left;
+        /* min-width: 80%; */
+        max-width: 100%;
+    }
+    .loan-contents label{
+        width:300px ;
+        /* padding-left: 15%; */
+        padding-right: 0;
+        margin-right: 0%;
+        text-align: left;
+    }
+    .loan-contents input{
+        width: 80%;
+        margin-left: 2%;
+        margin-bottom: 1%;
+        padding: 1%;
+    }
+    .loan-details-heading{
+        padding-left: 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .personalInformationForm{
+        background: white;
+         color: black;
+         border: 1px solid #fff;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 1%;
+         margin-bottom: 1%;
+         padding-top: 2%;
+         padding-bottom: 2%;
+         max-width: 100%;
+         /* min-width: 80%; */
+         width: 60%;
+     }
+     .personalInformationForm{
+        background: white;
+         color: black;
+         border: 1px solid #fff;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 1%;
+         margin-bottom: 1%;
+         padding-top: 2%;
+         padding-bottom: 2%;
+         /* max-width: 100%; */
+         width: 80%;
+     }
+     .personalInformationForm label{
+        width: 200px;
+        text-align: center;
+        padding-left: 0;
+        margin: 0;
+    }
+    .personalInformationForm  input{
+        width: 60%;
+        margin-bottom: 2%;
+        padding: 1%;
+    }
+    .family-status-form{
+        background: white;
+        color: black;
+        border: 1px solid #fff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 6%;
+        max-width: 100%;
+        /* min-width: 80%; */
+        width: 60%;
+        text-align: left;
+    }
+    .loan-contents{
+        border: 1px solid #fff;
+        background: white;
+        color: black;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2%;
+        text-align: left;
+        /* min-width: 80%; */
+        max-width: 100%;
+    }
+    .loan-contents label{
+        /* width:300px ; */
+        /* padding-left: 15%; */
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0%;
+      text-align: left;
+    }
+    .loan-contents input{
+        width: 80%;
+        margin-left: 2%;
+        margin-bottom: 1%;
+        padding: 1%;
+    }
+    .loan-details-heading{
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .personalInformationForm{
+        background: white;
+         color: black;
+         border: 1px solid #fff;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 1%;
+         margin-bottom: 1%;
+         padding-top: 2%;
+         padding-bottom: 2%;
+         max-width: 100%;
+         /* min-width: 80%; */
+         width: 60%;
+     }
+     
+     .personalInformationForm label{
+        width: 200px;
+        text-align: center;
+        padding-left: 0;
+        margin: 0;
+    }
+    .personalInformationForm  input{
+        width: 50%;
+        margin-bottom: 2%;
+        padding: 1%;
+    }
+}
+
+/* Loan Status Formats */
+.loanStatus-table{
+    margin-top: 8%;
+    margin-bottom: 20%!important;
+}
+table{
+    width: 100%;
+    margin-bottom: 1%;
+}
+th{
+    background-color: #353232;
+    color:white;
+    font-weight: bold;
+    padding: .5%;
+}
+td{
+    padding: 1%;
+    background-color: white;
+}
+  table,td{
+    border: 1px solid skyblue;  
+  }
+  th{
+    border: 1px solid white;  
+  }
+  .loanDetails-table{
+      margin-top: 8%;
+  }
+.view-details-btn{
+background-color: #00a7d0;
+border-radius: 10px;
+color: white;
+padding: 2%;
+}
+
+
+
+.applicants{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.move-btn{
+    text-align: center;
+}
+.disbursement-form{
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .5s;
+    background-color: #fff;
+}
+.disbursement-form:hover{
+    box-shadow: 10px 10px 10px rgb(114, 108, 108);
+}
+.disbursement-heading{
+    margin-top: 1%;
+    color:#00a7d0;
+    margin-bottom: 3%;
+}
+.cheque-section{
+    border: 8px solid white;
+    margin-bottom: 2%;
+}
+.cheque-number{
+    margin-bottom: 4%;
+}
+.label-heading{
+    font-weight: bold;
+}
+.disburse-btn{
+    margin-bottom: 5%;
+}
+/* apllicants details formarts */
+.main-view{
+    margin-top: 5%;
+}
+
+.personal-details{
+    margin-bottom: 2%;
+    border: 1px solid white;
+    padding: 2%;
+    background-color: white;
+    transition: all .5s;
+}
+.personal-details:hover{
+box-shadow: 10px 10px 10px rgb(126, 118, 118);
+}
+.family-status{
+    margin-bottom: 2%;
+    border: 1px solid white;
+    padding: 2%;
+    background-color: white;
+    transition: all .5s;
+}
+.family-status:hover{
+    box-shadow: 10px 10px 10px rgb(126, 118, 118);
+}
+.loan-details{
+    margin-bottom: 2%;
+    margin-bottom: 2%;
+    border: 1px solid white;
+    padding: 2%;
+    background-color: white;
+    transition: all .5s;
+}
+.loan-details:hover{
+    box-shadow: 10px 10px 10px rgb(126, 118, 118);
+}
+.bursary-details{
+    margin-bottom: 2%;
+    margin-bottom: 2%;
+    margin-bottom: 2%;
+    border: 1px solid white;
+    padding: 2%;
+    background-color: white;
+    transition: all .5s;
+}
+.bursary-details:hover{
+    box-shadow: 10px 10px 10px rgb(126, 118, 118);
+}
+.academic-details{
+    margin-bottom: 2%;
+    border: 1px solid white;
+    padding: 2%;
+    background-color: white;
+    transition: all .5s;
+}
+.academic-details:hover{
+    box-shadow: 10px 10px 10px rgb(126, 118, 118); 
+}
+.applicants-details-heading{
+    background-color: #00a7d0;
+    color: white;
+    padding: 1%;
+}
+.verify-section{
+    margin-bottom: 2%;
+    border: 1px solid #00a7d0;
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 2%;
+    transition: all .5s;
+}
+.verify-section:hover{
+    box-shadow: 10px 10px 10px rgb(126, 118, 118); 
+}
+/* .verify-btn{
+    margin-right: 5%;
+    display: inline-block;
+}
+.unverify-btn{
+    display: ;
+} */
+
+.main-section{
+    border: 1px solid red;
+}
+.allocation-section{
+    margin-top: 5%;  
+    margin-bottom: 2%;
+    border: 1px solid #00a7d0;
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 2%;
+    transition: all .5s;
+}
+.allocation-section:hover{
+    box-shadow: 10px 10px 10px rgb(126, 118, 118);  
+}
+.allocate-amount{
+    border-radius: 2px;
+    padding: 0.5%;
+    margin-bottom: 4%;
+}
+.allocate-btn{
+    background-color: #00a7d0;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0.5%;
+    margin-top: 1%;
+}
+
+.previous-btn{
+    color: white;
+    background-color: #00a7d0;
+    padding: 0.5%;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+.previous-btn:hover{
+    background-color: green;
+}
+
+.next-btn{
+    color: white;
+    background-color: #00a7d0;
+    padding: 0.5%;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom:2%;
+}
+.next-btn:hover{
+    background-color: green;
+}
+.download-content-form{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .5s;
+    background-color: white;
+}
+.download-content-form:hover{
+    box-shadow: 10px 10px 10px rgb(107, 99, 99);
+}
+.admin-download-heading{
+    font-weight: bold;
+}
+.form-contents{
+    border: 1px solid white;
+    padding: 2%;
+}
+.download-upload-btn{
+    color: white;
+    background-color: rgb(36, 36, 221);
+}
+
+.download-table{
+    margin-top: 5%;
+}
+.download-section{
+    margin-bottom: 10%;
+}
+.main-navigation{
+    margin-bottom: 8%;
+}
+.complaintForm
+{margin-left: auto;
+margin-right: auto;
+margin-top: 10%;
+margin-bottom: 5%;
+padding: 0;
+border: 1px solid rgb(239, 239, 245);
+color: #111;
+max-width: 100%;
+/* min-width: 500px; */
+width: 40%;
+background: #fff;
+}
+.complaint-section{
+    text-align: center;
+}
+.complaint-form-label{
+    width: 35%;
+    text-align: left;
+}
+.complaint-form-input{
+    width:60%
+}
+.complaint-submit-btn-div{
+    text-align: center;
+}
+.admin-complaint-table{
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+.complaint-btn{
+    margin-top: 5%;
+}
+.complaint-btn input{
+    width: 50%;
+}
